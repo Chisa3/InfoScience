@@ -10,7 +10,6 @@
 
 
 # These variables are to count the rools of the dice
-
 ones=0
 twos=0
 threes=0
@@ -98,3 +97,92 @@ We learned how to code a dice. For example, changing color, adding graph counter
 I learned how to change color of background and what number represents different colors.
 What question do you have?
 None
+
+ # Creating illusion
+1.What did you do?
+As a class we created a suare illusion together.
+I start creating Ehrenstein's square illusion, I started with coding lots of circles in different sizes like it has on the orginal illusion. I also created square inside those circles. Although I'm still working on making the square transparent.
+1. What did you learn?
+I learned to to create circles in different sizes in processing and how to foing cordinates for squares as the square had to fit in the circle perfectly.
+What question do you have?
+I want to know how to fill the color of square with transparent.
+
+offset = 50
+def mouseClicked():
+    global offset
+    offset = offset + 1 
+  
+def setup():
+    size (500,500)
+    background(255)
+    
+def draw():
+    stroke(0) # lines are black
+    y = 50
+    for inc in range(9):
+       line(0, y, 500, y)
+       y = y + 50
+       
+    fill(0)
+    stroke(255)
+    y = 0
+    for rows in range(5):
+        x = 0
+    for rep in range(5):
+            square(x, y, 50)
+            x = x + 100
+        y = y + 100
+        
+    y = 50 # start of the even rows 
+    global offset 
+    for rows in range(5): 
+        x = 0 + offset 
+        for rep in range(5):
+            square(x, y, 50)
+            x = x + 100
+        y = y + 100
+
+
+ # Creating your illusion and make presentation
+1.What did you do?
+I finished coding Ehrenstein's square illusion. I found out how to make the square transparent and chose to change size of the square as it was too small. I also made the square inside the circles to be able to change size when I click.
+2.What did you learn?
+I learned  square
+
+
+radius=20
+def setup():
+    size(500,500)
+    circles()
+    
+def circles ():
+    background(255)
+    strokeWeight(3)
+    circle(250,250,300)
+    circle(250,250,280)
+    circle(250,250,260)
+    circle(250,250,240)
+    circle(250,250,220)
+    circle(250,250,200)
+    circle(250,250,180)
+    circle(250,250,160)
+    circle(250,250,140)
+    circle(250,250,120)
+    circle(250,250,100)
+    circle(250,250,80)
+    circle(250,250,60)
+    circle(250,250,40)
+    circle(250,250,20)
+
+def draw():
+    pass
+
+def mouseClicked ():
+    global radius
+    circles()
+    radius=radius+10
+    fill(255,0,0,0)
+    x=250-radius*0.707
+    y=250-radius*0.707
+    print (x,y)
+    square(x,y,2*radius*0.707)
