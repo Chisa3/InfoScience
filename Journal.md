@@ -99,12 +99,13 @@ What question do you have?
 None
 
  # Creating illusion
-1.What did you do?
-As a class we created a suare illusion together.
-I start creating Ehrenstein's square illusion, I started with coding lots of circles in different sizes like it has on the orginal illusion. I also created square inside those circles. Although I'm still working on making the square transparent.
-1. What did you learn?
-I learned to to create circles in different sizes in processing and how to foing cordinates for squares as the square had to fit in the circle perfectly.
-What question do you have?
+ 1. What did you do?
+ As a class we created a suare illusion together.
+ I start creating Ehrenstein's square illusion, I started with coding lots of circles in different sizes like it has on the orginal
+ illusion. I also created square inside those circles. Although I'm still working on making the square transparent.
+ 1. What did you learn?
+ I learned to to create circles in different sizes in processing and how to foing cordinates for squares as the square had to fit in the circle perfectly.
+1. What question do you have?
 I want to know how to fill the color of square with transparent.
 
     offset = 50
@@ -144,10 +145,11 @@ I want to know how to fill the color of square with transparent.
 
 
  # Creating your illusion and make presentation
-1.What did you do?
-I finished coding Ehrenstein's square illusion. I found out how to make the square transparent and chose to change size of the square as it was too small. I also made the square inside the circles to be able to change size when I click.
-2.What did you learn?
-I learned how to code squares that change it's size when I click.
+ 1. What did you do?
+ I finished coding Ehrenstein's square illusion. I found out how to make the square transparent and chose to change size of the square as
+ it was too small. I also made the square inside the circles to be able to change size when I click.
+ 1. What did you learn?
+ I learned how to code squares that change it's size when I click.
 
 
     radius=20
