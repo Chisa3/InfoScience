@@ -17,18 +17,18 @@ fours=0
 fives=0
 sixes=0
 
-def setup():
+    def setup():
     size (600,600)
     background(255)
     barGraph()
     
-def draw():
+    def draw():
     x=0
     mouseClick()
     delay(200)
     barGraph()
     
-def barGraph():
+    def barGraph():
     global ones
     fill(0)
     textSize(20)
@@ -42,7 +42,7 @@ def barGraph():
     rect(250, 550 - fives, 20, fives)
     rect(300, 550 - sixes, 20, sixes)
     
-def mouseClick():
+    def mouseClick():
     global ones, twos, threes, fours, fives, sixes
     background(255)
     stroke(0)
@@ -107,16 +107,16 @@ I learned to to create circles in different sizes in processing and how to foing
 What question do you have?
 I want to know how to fill the color of square with transparent.
 
-offset = 50
-def mouseClicked():
+    offset = 50
+    def mouseClicked():
     global offset
     offset = offset + 1 
   
-def setup():
+    def setup():
     size (500,500)
     background(255)
     
-def draw():
+    def draw():
     stroke(0) # lines are black
     y = 50
     for inc in range(9):
@@ -147,15 +147,15 @@ def draw():
 1.What did you do?
 I finished coding Ehrenstein's square illusion. I found out how to make the square transparent and chose to change size of the square as it was too small. I also made the square inside the circles to be able to change size when I click.
 2.What did you learn?
-I learned  square
+I learned how to code squares that change it's size when I click.
 
 
-radius=20
-def setup():
+    radius=20
+    def setup():
     size(500,500)
     circles()
     
-def circles ():
+    def circles ():
     background(255)
     strokeWeight(3)
     circle(250,250,300)
@@ -174,10 +174,10 @@ def circles ():
     circle(250,250,40)
     circle(250,250,20)
 
-def draw():
+    def draw():
     pass
 
-def mouseClicked ():
+    def mouseClicked ():
     global radius
     circles()
     radius=radius+10
