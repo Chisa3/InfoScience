@@ -10,12 +10,20 @@
 
 
 # These variables are to count the rools of the dice
-ones=0
-twos=0
-threes=0
-fours=0
-fives=0
-sixes=0
+
+ 1. What did you do?
+ We learned how to code a dice. For example, changing color, adding graph counter and changing speed.
+ 1. What did you learn?
+ I learned how to change color of background and what number represents different colors.
+ 1. What question do you have?
+ None
+ 
+    ones=0
+    twos=0
+    threes=0
+    fours=0
+    fives=0
+    sixes=0
 
     def setup():
     size (600,600)
@@ -91,12 +99,6 @@ sixes=0
         circle(400,300,50)
         sixes= sixes + 1
         print("number of times six has been rolled:",sixes)
-1.What did you do?
-We learned how to code a dice. For example, changing color, adding graph counter and changing speed.
-1. What did you learn?
-I learned how to change color of background and what number represents different colors.
-What question do you have?
-None
 
  # Creating illusion
  1. What did you do?
