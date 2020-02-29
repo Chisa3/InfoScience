@@ -6,8 +6,6 @@
  I learned how hard it is to write down every single steps of just simple actions.
 1. What question do you have?
  None
- 
-
 
 # These variables are to count the rools of the dice
 
