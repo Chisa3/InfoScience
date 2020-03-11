@@ -1,4 +1,4 @@
-# This is the journal for Comp sci
+# 1. This is the journal for Comp sci
 
 1. What did you do?
  We watched video about introduction of computer science. Then we wrote down detailed process of making jam sandwitch in groups of 3.
@@ -7,7 +7,7 @@
 1. What question do you have?
  None
 
-# These variables are to count the rools of the dice
+# 2. These variables are to count the rools of the dice
 
  1. What did you do?
  We learned how to code a dice. For example, changing color, adding graph counter and changing speed.
@@ -98,7 +98,7 @@
         sixes= sixes + 1
         print("number of times six has been rolled:",sixes)
 
- # Creating illusion
+ # 3. Creating illusion
  1. What did you do?
  As a class we created a suare illusion together.
  I start creating Ehrenstein's square illusion, I started with coding lots of circles in different sizes like it has on the orginal
@@ -144,7 +144,7 @@ I want to know how to fill the color of square with transparent.
         y = y + 100
 
 
- # Creating your illusion and make presentation
+ # 4. Creating your illusion and make presentation
  1. What did you do?
  I finished coding Ehrenstein's square illusion. I found out how to make the square transparent and chose to change size of the square as
  it was too small. I also made the square inside the circles to be able to change size when I click.
