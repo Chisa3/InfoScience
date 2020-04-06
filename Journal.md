@@ -1,4 +1,4 @@
-# 1. This is the journal for Comp sci
+## 1. This is the journal for Comp sci
 
 1. What did you do?
  We watched video about introduction of computer science. Then we wrote down detailed process of making jam sandwitch in groups of 3.
