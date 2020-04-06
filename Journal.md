@@ -1,4 +1,4 @@
-## 1. This is the journal for Comp sci
+# 1. This is the journal for Comp sci
 
 1. What did you do?
  We watched video about introduction of computer science. Then we wrote down detailed process of making jam sandwitch in groups of 3.
@@ -192,7 +192,7 @@ I want to know how to fill the color of square with transparent.
 # 5. Tasks for week 28
 
 Veideo 1 - Representing Individuals
-   # bounderies conditions
+   Bounderies conditions
         if x[i] > 500: 
             x[i] = 500 # right
         if y[i] > 500:
@@ -203,3 +203,53 @@ Veideo 1 - Representing Individuals
             x[i] = 0 # left
   
   Video 2 - Representing a community
+    create random individuals
+     for i in range(20):
+     circle(x[i], y[i], 40)
+     x.append(random(0,500))
+     y.append(random(0,500))
+     
+5. What should be some behaviours (at least 3) that we will need to include in our simulation to be a realistic approximation of the current situation in the world? Explain.
+- Create some crowded places (for example shopping mall or restaurant in real life) where virus can spread easily.
+- Create some restrictions like not going outside unless necessary and have small groups to represent family at home.
+- Add color to the circles in order to represent children, adults and old people.
+
+1. What did you do?
+ I watch all the videos and finished tasks given from the video. Which were to create 3 more bounderies conditions and circles representing lots of random people.
+1. What did you learn?
+ I learned how 'delay()' can be used to create time before repeating. Also, 'append' that I used to create random individuals.
+1. What question do you still have?
+ I want to know how I can change the color of random individuals that I created.
+ 
+Covid-19 
+ definition of variables
+x = [300, 200] 
+y = [300, 200]
+
+def setup():
+    size(500,500)
+    
+def draw():
+    global x, y
+    background(255)
+    strokeWeight(2)
+    
+    #create random individuals
+for i in range(20):
+    circle(x[i], y[i], 40)
+    x.append(random(0,500))
+    y.append(random(0,500))
+                
+        # bounderies conditions
+        if x[i] > 500: 
+            x[i] = 500 # right
+        if y[i] > 500:
+            y[i] = 500 # bottom
+        if y[i] < 0:
+            y[i] = 0 # top
+        if x[i] < 0: 
+            x[i] = 0 # left
+    
+    delay(100)
+ 
+ 
