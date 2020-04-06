@@ -188,3 +188,18 @@ I want to know how to fill the color of square with transparent.
     y=250-radius*0.707
     print (x,y)
     square(x,y,2*radius*0.707)
+
+# 5. Tasks for week 28
+
+Veideo 1 - Representing Individuals
+   # bounderies conditions
+        if x[i] > 500: 
+            x[i] = 500 # right
+        if y[i] > 500:
+            y[i] = 500 # bottom
+        if y[i] < 0:
+            y[i] = 0 # top
+        if x[i] < 0: 
+            x[i] = 0 # left
+  
+  Video 2 - Representing a community
